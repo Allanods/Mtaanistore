@@ -7,13 +7,17 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
 
-     path('home/', views.home),
+     path('home/', views.home, name = 'home'),
 
-     path('about/', views.about),
+     path('about/', views.about, name = 'about'),
      
-     path('contact/', views.contact),
+     path('contact/', views.contact, name = 'contact'),
 
-     path('gallery/', views.gallery),
+     path('gallery/', views.gallery, name = 'gallery'),
+
+     path('services/', views.services, name = 'services'),
+
+
 
  
 
