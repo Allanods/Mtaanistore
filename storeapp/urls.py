@@ -17,6 +17,8 @@ urlpatterns = [
 
      path('services/', views.services, name = 'services'),
 
+      path('lists/', views.lists, name = 'lists'),
+
 
 
  

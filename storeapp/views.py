@@ -19,3 +19,11 @@ def gallery(request):
 def services(request):
     return render(request, 'services.html')
 
+
+def lists(request):
+    return render(request, 'lists.html')
+
+
+
+
+
